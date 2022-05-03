@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PaginaAdministrator"
+    android:background="@drawable/fundal3">
+    <TextView
+        android:id="@+id/Gestionare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#081978"
+        android:text="Adaugare/Stergere"
+        android:textColor="#F2E8E0"
+        android:textSize="35dp"
+        android:layout_gravity="center"
+        app:fontFamily="casual"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#669933"
+        android:layout_marginTop="30dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#669933"
+            >
+    <Button
+        android:id="@+id/Adauga"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:background="#081978"
+        android:text="Adauga Masini"
+        android:textColor="#F2E8E0"
+        android:textSize="30dp"
+        app:backgroundTint="#081978" />
+    <Button
+        android:id="@+id/Sterge"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Adauga"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="#081978"
+        android:text="Sterge Masini"
+        android:textColor="#F2E8E0"
+        android:textSize="30dp"
+        app:backgroundTint="#081978" />
+
+    <Button
+        android:id="@+id/Incirieri"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Sterge"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="#081978"
+        android:text="Vezi Cereri"
+        android:textColor="#F2E8E0"
+        android:textSize="30dp"
+        app:backgroundTint="#081978" />
+    <Button
+        android:id="@+id/AfisareMasiniM"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Incirieri"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="#081978"
+        android:text="Afisare Masini"
+        android:textColor="#F2E8E0"
+        android:textSize="30dp"
+        app:backgroundTint="#081978" />
+
+            <Button
+                android:id="@+id/ModificaNR"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/AfisareMasiniM"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:background="#081978"
+                android:text="Modifica date"
+                android:textColor="#F2E8E0"
+                android:textSize="30dp"
+                app:backgroundTint="#081978" />
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
